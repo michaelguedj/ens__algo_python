@@ -130,7 +130,7 @@ def t(x, y, z):
     if y != 0:
         return y**4+(2+x**3+z**5)/y
     if z != 0:
-        return z**4+(3+x**3+z**5)/z
+        return z**4+(3+x**3+y**5)/z
     return 0
 
 
